@@ -126,10 +126,10 @@
                     </div>
                     <div class="home__data">
                         <h1 class="home__title">Hello from Hasan Khan,</h1>
-                        <h3 class="home__subtitle">Consumer Insight Data Analyst</h3>
-                        <p class="home__description">I am a Data Analyst at Beats by Dre, where I focus on collecting 
-                            and analyzing consumer data to uncover trends and insights. My role involves supporting the 
-                            development of comprehensive data-driven reports and presentations for internal stakeholders.
+                        <h3 class="home__subtitle">Program Delivery, Extended Workforce Solutions</h3>
+                        <p class="home__description">I am currently part of the MIS Team at Cognizant, contributing to the Google Onboarding project. In this role, I work closely with the MIS Lead to perform comprehensive data analysis, derive actionable insights, and deliver detailed reports to leadership to facilitate informed decision-making. My efforts are focused on leveraging data to enhance operational efficiency and align processes with overarching business objectives.
+
+
                         </p>
                         <a href="#contact" class="button button--flex">
                             Contact Me <i class="uil uil-message button__icon"></i>
@@ -164,8 +164,8 @@
 
                     <div class="about__info">
                         <div>
-                            <span class="about__info-title">01+</span>
-                            <span class="about__info-name">Years <br> experience </span>
+                            <span class="about__info-title">05+</span>
+                            <span class="about__info-name">Months <br> experience </span>
                         </div>
 
                         <div>
@@ -388,7 +388,7 @@
                                 <span class="qualification__subtitle">
                                     <a href="https://iomaorissa.ac.in/" target="_blank">Institute of Mathematics and Applications, Bhubaneswar</a>
                                         <br>
-                                        <h5>Persuing</h5>
+                                        <h5>Post-Graduate</h5>
                                 </span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
@@ -431,6 +431,24 @@
                         <!--===============================QUALIFICATION 1 ===========================-->
                         <div class="qualification__data">
                             <div>
+                                <h3 class="qualification__title">MIS Analyst</h3>
+                                <span class="qualification__subtitle">
+                                    <a href="https://www.cognizant.com/in/en/" target="_blank">Cognizant</a>
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    September 2024 - Present
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                        <!--===============================QUALIFICATION 2 ===========================-->
+                        <div class="qualification__data">
+                            <div>
                                 <h3 class="qualification__title">Consumer Insight Data Analyst</h3>
                                 <span class="qualification__subtitle">
                                     <a href="https://www.beatsbydre.com/" target="_blank">Beats By Dre</a>
@@ -447,7 +465,7 @@
                             </div>
                         </div>
 
-                        <!--===============================QUALIFICATION 2 ===========================-->
+                        <!--===============================QUALIFICATION 3 ===========================-->
                         <div class="qualification__data">
                             <div></div>
                             <div>
@@ -807,40 +825,116 @@
                             <span class="contact__subtitle">India</span>
                         </div>
                     </div>
-                        
-                    <form action="https://formspree.io/f/mdkneodn" method="POST" class="contact__form grid" id="submit_form">
-                        <div class="contact__inputs grid">
-                            <div class="contact__content">
-                                <label for="name" class="contact__label">Name</label>
-                                <input type="text" id="name" name="name" class="contact__input" required>
-                            </div>
+                    
+                    <form
+    action="https://formspree.io/f/mdkneodn"
+    method="POST"
+    class="contact__form grid"
+    id="submit_form"
+>
+    <div class="contact__inputs grid">
+        <div class="contact__content">
+            <label for="name" class="contact__label">Your Name</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                class="contact__input"
+                placeholder="Your Name"
+                required
+            />
+        </div>
 
-                            <div class="contact__content">
-                                <label for="email" class="contact__label" placeholder="email@example.com">Email</label>
-                                <input type="email" id="email" name="email" class="contact__input" required>
-                            </div>
-                        </div>
+        <div class="contact__content">
+            <label for="email" class="contact__label">Your E-mail</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                class="contact__input"
+                placeholder="Your E-mail"
+                required
+            />
+        </div>
 
-                        <div class="contact__content">
-                            <label for="project-contact" class="contact__label">Subject</label>
-                            <input type="text" id="project-contact" name="project" class="contact__input" required>
-                        </div>
+        <div class="contact__content">
+            <label for="phone" class="contact__label">Phone Number</label>
+            <input
+                type="text"
+                id="phone"
+                name="phone"
+                class="contact__input"
+                placeholder="Phone Number"
+                required
+            />
+        </div>
+    </div>
 
-                        <div class="contact__content">
-                            <label for="message-contact" class="contact__label">Message</label>
-                            <textarea name="message" cols="0" rows="7" id="message-contact"
-                                class="contact__input" required></textarea>
-                        </div>
+    <div class="contact__content">
+        <label for="message" class="contact__label">Your Message</label>
+        <textarea
+            name="message"
+            id="message"
+            class="contact__input"
+            placeholder="Your Message"
+            style="height: 120px"
+            required
+        ></textarea>
+    </div>
 
-                        <!--<div class="g-recaptcha" data-sitekey="6Ldv3yMpAAAAAJBnsyuM_we1OQjiUtK-dUEW5Kdu"></div>-->
+    <div style="text-align: center;">
+        <button
+            type="submit"
+            class="button button--flex"
+            id="submit"
+        >
+            Send Message
+            <i class="uil uil-message button__icon"></i>
+        </button>
+    </div>
 
-                        <div style="text-align: center;">
-                            <button class="button button--flex" id="check">
-                                Send Message
-                                <i class="uil uil-message button__icon"></i>
-                            </button>
-                        </div>
-                    </form>
+    <div id="success" style="display: none;">
+        <p class="green textcenter">
+            Your message was sent successfully! I will be in touch as soon as I can.
+        </p>
+    </div>
+    <div id="error" style="display: none;">
+        <p>
+            Something went wrong, try refreshing and submitting the form again.
+        </p>
+    </div>
+</form>
+
+<script>
+    document.getElementById('submit_form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the default form submission
+        
+        var form = event.target;
+        var formData = new FormData(form);
+
+        fetch(form.action, {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'Accept': 'application/json'
+            }
+        })
+        .then(response => response.json())
+        .then(result => {
+            if (result.ok) {
+                document.getElementById('success').style.display = 'block';
+                form.reset(); // Optionally reset the form
+            } else {
+                document.getElementById('error').style.display = 'block';
+            }
+        })
+        .catch(() => {
+            document.getElementById('error').style.display = 'block';
+        });
+    });
+</script>
+
+                    
                 </div>
             </div>
         </section>
